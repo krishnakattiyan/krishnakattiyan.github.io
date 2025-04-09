@@ -110,7 +110,7 @@ We focus on technologies like WiFi 7, 5G/6G, and intelligent multiple access pro
   <div style="flex: 1 1 45%; display: flex; gap: 20px; align-items: center;">
       <img src="/picture1.jpeg" alt="Brin" style="width: 120px; height: 120px; object-fit: cover; border-radius: 8px;">
       <div>
-        <h3 style="margin: 0;">Brain</h3>
+        <h3 style="margin: 0;">Brian Trinh</h3>
         <p style="margin: 4px 0;">M.S Student</p>
         <p style="margin: 4px 0;"><em>Project:</em> ML Models for WiFi 7.</p>
       </div>
