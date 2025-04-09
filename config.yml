@@ -11,10 +11,10 @@ taxonomies:
 menu:
     main:
         - name: Biography
-          url: books/
+          url: biography/
           weight: 1 
         - name: WIN Lab
-          url: data/
+          url: winlab/
           weight: 2
         - name: Publications
           url: papers/
@@ -74,9 +74,9 @@ params:
           imageHeight: 160
           buttons:
             - name: Biography
-              url: books/
+              url: biography/
             - name: WIN Lab
-              url: data/
+              url: winlab/
             - name: Publications
               url: papers/
             - name: Teaching
