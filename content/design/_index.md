@@ -1,16 +1,16 @@
 ---
-title: "Data"
-description: "Datasets on various philological topics."
+title: "Senior Design Projects"
+description: ""
 ---
 <p style="font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
   I have advised the following Senior Design projects as part of my mentorship at Santa Clara University.
 </p>
 
-
-
 <p align="center">
-  <img src="/SD2.jpeg" alt="My photo" width="900" height="400"
-    style="border-radius: 16px;
+  <img src="/SD2.jpeg" alt="My photo"
+    style="max-width: 100%;
+           height: auto;
+           border-radius: 16px;
            border: 2px solid #ccc;
            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
            transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.3s ease;"
@@ -21,9 +21,12 @@ description: "Datasets on various philological topics."
                 this.style.boxShadow='0 6px 20px rgba(0,0,0,0.15)';
                 this.style.filter='brightness(1)';" />
 </p>
+
 <p align="center">
-  <img src="/SD1.jpeg" alt="My photo" width="900" height="400"
-    style="border-radius: 16px;
+  <img src="/SD1.jpeg" alt="My photo"
+    style="max-width: 100%;
+           height: auto;
+           border-radius: 16px;
            border: 2px solid #ccc;
            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
            transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.3s ease;"
@@ -34,3 +37,4 @@ description: "Datasets on various philological topics."
                 this.style.boxShadow='0 6px 20px rgba(0,0,0,0.15)';
                 this.style.filter='brightness(1)';" />
 </p>
+

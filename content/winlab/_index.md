@@ -1,10 +1,10 @@
 ---
-title: "Data"
-description: "Datasets on various philological topics."
+title: "WINLAB"
+description: ""
 ---
 
 <p align="center">
-  <img src="/lab.jpeg" alt="My photo" width="900" height="200"/>
+  <img src="/lab.jpeg" alt="WIN Lab Logo" style="max-width: 100%; height: auto;"/>
 </p>
 
 <p style="font-size: 14px; line-height: 1.8;">

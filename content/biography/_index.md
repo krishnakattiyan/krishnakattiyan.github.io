@@ -1,6 +1,6 @@
 ---
-title: "Books"
-description: "Books by Professor Dr von Igelfeld's."
+title: "Biography"
+description: ""
 ---
 
 <p style="font-size: 16px; line-height: 1.7;">

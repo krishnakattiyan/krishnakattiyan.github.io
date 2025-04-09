@@ -29,7 +29,7 @@ menu:
           url: archive/
           weight: 6
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
+    description: "Assistant Professor of Computer Science and Engineering at the Santa Clara University."
     author: Krishna Ramamoorthy
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
