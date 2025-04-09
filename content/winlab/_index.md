@@ -1,6 +1,6 @@
 ---
 title: "WINLAB"
-description: ""
+description: "Wireless Intelligent Networks (WIN) Lab at Santa Clara University"
 ---
 
 <p align="center">

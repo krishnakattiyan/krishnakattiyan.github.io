@@ -56,12 +56,12 @@ params:
           enabled: true
           title: "Krishna Ramamoorthy"
           subtitle: "
-          Hi! I’m an Assistant Professor of Computer Science and Engineering and director of the Wireless Intelligent Networks Lab at Santa Clara University.
+          Hi! I’m an Assistant Professor of Computer Science and Engineering and Director of the Wireless Intelligent Networks (WIN) Lab at Santa Clara University.
           <br><br>
 
           <p><strong>Office:</strong> Bergin 204</p>
           <p><strong>Lab:</strong> Heafey 165</p>
-          500 El Camino Real, Santa Clara, California   <br>
+          500 El Camino Real, Santa Clara, CA 95053   <br>
       
 
           <br> <p><strong>Email:</strong> kkattiyanramamoorthy[at]scu[dot]edu</p>
@@ -102,7 +102,7 @@ params:
         #- name: Zoom
         #  url: https://www.zoom.us/my/igelfeld
         #- name: Location
-        #  url: location/
+        #  url: http://maps.apple.com/?q=Santa+Clara+University
         #- name: Office Hours
         #  url: officehours/
         #- name: Google Scholar
