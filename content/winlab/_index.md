@@ -172,11 +172,11 @@ Whether you’re passionate about future wireless networks, curious about how ma
 <h3 style="text-align: center; margin-top: 40px;">Undergraduate Students:</h3>
 <div class="student-grid">
   <div class="student-card">
-    <img src="/picture1.jpeg" alt="Derek Chui" class="student-image">
+    <img src="/Derek.png" alt="Derek Chui" class="student-image">
     <div class="student-info">
       <div class="student-name">Derek Chui</div>
       <div class="student-role">B.S. Student</div>
-      <div class="project-hover"><em>Project:</em> Efficient user grouping in NOMA Networks</div>
+      <div class="project-hover"><em>Project:</em> Efficient user clustering in NOMA 6G Networks</div>
     </div>
   </div>
 </div>
