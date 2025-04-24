@@ -194,7 +194,7 @@ Whether you’re passionate about future wireless networks, curious about how ma
   </div>
 
   <div class="student-card">
-    <img src="/picture1.jpeg" alt="Samarth Kulkarni" class="student-image">
+    <img src="/Samarth.PNG" alt="Samarth Kulkarni" class="student-image">
     <div class="student-info">
       <div class="student-name">Samarth Kulkarni</div>
       <div class="student-role">M.S. Student</div>
@@ -218,7 +218,7 @@ Whether you’re passionate about future wireless networks, curious about how ma
 <div id="prospective" class="toggle-section active">
   <p style="font-size: 14px; line-height: 1.8;">
     <strong>Ph.D. Students:</strong><span style="color: #b86f50;">
-  I’m looking to welcome kind, curious, and self-driven Ph.D. students to join the WIN Lab.</span> If you’re passionate about wireless networks, ML for networks, or network economics, feel free to <a href="mailto:kkattiyanramamoorthy@scu.edu" style="color: #f4a261;">email me</a> with your CV and research interests.
+  I’m looking to welcome kind, curious, and self-driven Ph.D. students to join the WIN Lab.</span> If you’re passionate about wireless networks, protocols for 6G, machine learning for networks, or network economics, feel free to <a href="mailto:kkattiyanramamoorthy@scu.edu" style="color: #f4a261;">email me</a> with your CV and research interests.
   </p>
 
   <p style="font-size: 14px; line-height: 1.8;">
