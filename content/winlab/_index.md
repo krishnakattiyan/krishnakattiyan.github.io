@@ -194,7 +194,7 @@ Whether you’re passionate about future wireless networks, curious about how ma
   </div>
 
   <div class="student-card">
-    <img src="/Samarth.PNG" alt="Samarth Kulkarni" class="student-image">
+    <img src="/samarth.PNG" alt="Samarth Kulkarni" class="student-image">
     <div class="student-info">
       <div class="student-name">Samarth Kulkarni</div>
       <div class="student-role">M.S. Student</div>
