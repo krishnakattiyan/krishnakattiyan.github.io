@@ -9,12 +9,32 @@ description: ""
 
 
 <p style="font-size: 14px; line-height: 1.7;">
-  I strive to make meaningful contributions to research while fostering a learning environment built on curiosity, clarity, and care. Teaching and mentoring are at the heart of my academic life.  I’ve published in leading journals such as IEEE Transactions on Vehicular Technology, and actively present and serve on technical program committees for conferences like IEEE ICC and IEEE WCNC. 
-  You can view my full CV <a href="/KrishnaRamamoorthyCV.pdf" class="advisor-link" target="_blank">here</a>.
+  I strive to make meaningful contributions to research while fostering a learning environment built on curiosity, clarity, and care. Teaching and mentoring are at the heart of my academic life.  I've published in leading journals such as IEEE Transactions on Vehicular Technology, and actively present and serve on technical program committees for conferences like IEEE ICC and IEEE WCNC.
 </p>
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="/KrishnaRamamoorthyCV.pdf" target="_blank" class="cv-button">View My Full CV</a>
+</div>
 
 
 <style>
+.cv-button {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffd580;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cv-button:hover {
+  background-color: #ffcc5c;
+  transform: translateY(-2px);
+}
+
 .bio-tab-wrapper {
   display: flex;
   justify-content: center;

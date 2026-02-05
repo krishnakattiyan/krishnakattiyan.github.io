@@ -80,6 +80,10 @@ description: ""
   <div class="course-glow-title">Undergraduate</div>
   <div class="course-glow-column">
     <div class="course-glow-card">
+      <h4>CSEN 11: Advanced Programming</h4>
+      <p>Session: Winter '26</p>
+    </div>
+    <div class="course-glow-card">
       <h4>CSEN 79: OO Programming and Advanced Data Structures</h4>
       <p>Session: Winter '25</p>
     </div>

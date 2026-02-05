@@ -3,10 +3,6 @@ title: "WINLAB"
 description: "Wireless Intelligent Networks (WIN) Lab at Santa Clara University"
 ---
 
-<p align="center">
-  <img src="/lab.jpeg" alt="WIN Lab Logo" style="max-width: 100%; height: auto;"/>
-</p>
-
 <p style="font-size: 14px; line-height: 1.8;">
   The <strong>Wireless Intelligent Networks (WIN) Lab</strong> at Santa Clara University explores next-generation wireless systems that adapt, learn, and make intelligent decisions — with a focus on efficient resource allocation, smarter access protocols, and user-centered performance.
 </p>
@@ -58,82 +54,91 @@ Whether you’re passionate about future wireless networks, curious about how ma
   display: block;
 }
  
-.student-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 20px;
+.team-section {
+  margin-top: 40px;
 }
 
-.student-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.student-card {
-  width: 210px;
-  height: 260px;
-  background-color: white;
-  border-radius: 16px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0 0 10px rgba(0,0,0,0.06);
-  transition: box-shadow 0.3s ease;
+.team-section h3 {
   text-align: center;
-  cursor: pointer;
-  padding-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+  position: relative;
 }
 
-.student-card:hover {
-  box-shadow: 0 0 12px 2px gold;
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-.student-image {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: all 0.4s ease;
-  margin-bottom: 10px;
+.member-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 12px;
+  padding: 20px 28px;
+  min-width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.06);
 }
 
-.student-card:hover .student-image {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 4px;
+.member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(244, 162, 97, 0.25);
+  border-color: #f4a261;
 }
 
-.student-info {
-  transition: transform 0.3s ease;
+.member-card a {
+  text-decoration: none;
 }
 
-.student-name {
-  font-weight: bold;
-  margin-bottom: 4px;
-  transition: margin-bottom 0.3s ease;
+.member-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2d3436;
+  margin-bottom: 6px;
 }
 
-.student-role {
-  font-style: italic;
+.member-card a .member-name {
+  color: #f4a261;
+  transition: color 0.2s ease;
+}
+
+.member-card a:hover .member-name {
+  color: #e07b3c;
+}
+
+.member-role {
+  font-size: 13px;
+  color: #636e72;
+  font-weight: 400;
+}
+
+.alumni-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.alumni-chip {
+  background: #f1f2f6;
+  border-radius: 20px;
+  padding: 10px 20px;
   font-size: 14px;
   color: #555;
-  transition: margin-bottom 0.3s ease;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
 }
 
-.project-hover {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  font-size: 14px;
-  margin-top: 6px;
-  padding: 0 10px;
-}
-
-.student-card:hover .project-hover {
-  opacity: 1;
+.alumni-chip:hover {
+  background: #fff;
+  border-color: #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 </style>
@@ -169,46 +174,36 @@ Whether you’re passionate about future wireless networks, curious about how ma
 <div id="people" class="toggle-section">
 
 <!-- UNDERGRADUATE STUDENTS -->
-<h3 style="text-align: center; margin-top: 40px;">Undergraduate Students:</h3>
-<div class="student-grid">
-  <div class="student-card">
-    <img src="/Derek.png" alt="Derek Chui" class="student-image">
-    <div class="student-info">
-      <div class="student-name">Derek Chui</div>
-      <div class="student-role">B.S. Student</div>
-      <div class="project-hover"><em>Project:</em> Efficient user clustering in NOMA 6G Networks</div>
+<div class="team-section">
+  <h3>Undergraduate Students</h3>
+  <div class="team-grid">
+    <div class="member-card">
+      <a href="https://derekchui.com/" target="_blank">
+        <div class="member-name">Derek Chui</div>
+        <div class="member-role">B.S. Student</div>
+      </a>
     </div>
   </div>
 </div>
 
 <!-- GRADUATE STUDENTS -->
-<h3 style="text-align: center; margin-top: 50px;">Graduate Students:</h3>
-<div class="student-grid">
-  <div class="student-card">
-    <img src="/picture1.jpeg" alt="Mrudhula Lokesh" class="student-image">
-    <div class="student-info">
-      <div class="student-name">Mrudhula Lokesh</div>
-      <div class="student-role">M.S. Student</div>
-      <div class="project-hover"><em>Project:</em> Optimizing Multi Link Operation (MLO) in WiFi 7</div>
+<div class="team-section">
+  <h3>Graduate Students</h3>
+  <div class="team-grid">
+    <div class="member-card">
+      <div class="member-name">Zack Common</div>
+      <div class="member-role">M.S. Student</div>
     </div>
   </div>
+</div>
 
-  <div class="student-card">
-    <img src="/samarth.PNG" alt="Samarth Kulkarni" class="student-image">
-    <div class="student-info">
-      <div class="student-name">Samarth Kulkarni</div>
-      <div class="student-role">M.S. Student</div>
-      <div class="project-hover"><em>Project:</em> Advanced Reinforcement Learning Models for WiFi 7</div>
-    </div>
-  </div>
-
-  <div class="student-card">
-    <img src="/Brian.PNG" alt="Brian Trinh" class="student-image">
-    <div class="student-info">
-      <div class="student-name">Brian Trinh</div>
-      <div class="student-role">M.S. Student</div>
-      <div class="project-hover"><em>Project:</em> ML driven Traffic Distribution in WiFi 7</div>
-    </div>
+<!-- ALUMNI -->
+<div class="team-section">
+  <h3>Alumni</h3>
+  <div class="alumni-grid">
+    <div class="alumni-chip">Mrudhula Lokesh</div>
+    <div class="alumni-chip">Samarth Kulkarni</div>
+    <div class="alumni-chip">Brian Trinh</div>
   </div>
 </div>
 
