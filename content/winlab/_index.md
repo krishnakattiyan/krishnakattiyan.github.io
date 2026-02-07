@@ -83,6 +83,23 @@ Whether you’re passionate about future wireless networks, curious about how ma
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-grid-2col {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.team-grid-2col .member-card {
+  width: calc(50% - 40px);
+  min-width: 200px;
+  max-width: 280px;
 }
 
 .member-card:hover {
@@ -111,6 +128,20 @@ Whether you’re passionate about future wireless networks, curious about how ma
   color: #e07b3c;
 }
 
+.member-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #f0f0f0;
+  transition: border-color 0.3s ease;
+}
+
+.member-card:hover .member-photo {
+  border-color: #f4a261;
+}
+
 .member-role {
   font-size: 13px;
   color: #636e72;
@@ -119,9 +150,9 @@ Whether you’re passionate about future wireless networks, curious about how ma
 
 .alumni-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 12px;
-  justify-content: center;
   margin-bottom: 40px;
 }
 
@@ -139,6 +170,17 @@ Whether you’re passionate about future wireless networks, curious about how ma
   background: #fff;
   border-color: #ddd;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.alumni-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.alumni-dest {
+  font-size: 12px;
+  color: #888;
+  margin-top: 3px;
 }
 
 </style>
@@ -189,9 +231,25 @@ Whether you’re passionate about future wireless networks, curious about how ma
 <!-- GRADUATE STUDENTS -->
 <div class="team-section">
   <h3>Graduate Students</h3>
-  <div class="team-grid">
+  <div class="team-grid-2col">
     <div class="member-card">
+      <img src="/zack.webp" alt="Zack Common" class="member-photo">
       <div class="member-name">Zack Common</div>
+      <div class="member-role">M.S. Student</div>
+    </div>
+    <div class="member-card">
+      <img src="/Brian.PNG" alt="Brian Trinh" class="member-photo">
+      <div class="member-name">Brian Trinh</div>
+      <div class="member-role">M.S. Student</div>
+    </div>
+    <div class="member-card">
+      <img src="/tom.webp" alt="Tom Ngo" class="member-photo">
+      <div class="member-name">Tom Ngo</div>
+      <div class="member-role">M.S. Student</div>
+    </div>
+    <div class="member-card">
+      <img src="/khushi.webp" alt="Khushi Savaliya" class="member-photo">
+      <div class="member-name">Khushi Savaliya</div>
       <div class="member-role">M.S. Student</div>
     </div>
   </div>
@@ -202,8 +260,10 @@ Whether you’re passionate about future wireless networks, curious about how ma
   <h3>Alumni</h3>
   <div class="alumni-grid">
     <div class="alumni-chip">Mrudhula Lokesh</div>
-    <div class="alumni-chip">Samarth Kulkarni</div>
-    <div class="alumni-chip">Brian Trinh</div>
+    <div class="alumni-chip">
+      <div class="alumni-name">Samarth Kulkarni</div>
+      <div class="alumni-dest">→ Piedmont Global Language Systems (PGLS)</div>
+    </div>
   </div>
 </div>
 
