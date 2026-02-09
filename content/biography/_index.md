@@ -9,7 +9,7 @@ description: ""
 
 
 <p style="font-size: 14px; line-height: 1.7;">
-  I strive to make meaningful contributions to research while fostering a learning environment built on curiosity, clarity, and care. Teaching and mentoring are at the heart of my academic life.  I've published in leading journals such as IEEE Transactions on Vehicular Technology, and actively present and serve on technical program committees for conferences like IEEE ICC and IEEE WCNC.
+  I strive to make meaningful contributions to research while fostering a learning environment built on curiosity, clarity, and care. Teaching and mentoring are at the heart of my academic life.  I've published in leading journals such as IEEE Transactions on Vehicular Technology, and actively present and serve on technical program committees for conferences like IEEE ICC, IEEE Globecomm, and IEEE WCNC.
 </p>
 
 <div style="text-align: center; margin: 20px 0;">
