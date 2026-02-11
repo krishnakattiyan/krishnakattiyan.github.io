@@ -38,6 +38,9 @@ description: ""
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .course-glow-card::before {
@@ -87,10 +90,10 @@ description: ""
       <h4>CSEN 79: OO Programming and Advanced Data Structures</h4>
       <p>Session: Winter '25</p>
     </div>
-    <div class="course-glow-card">
+    <a href="/CSEN_171__Syllabus__Section1-3.pdf" class="course-glow-card" target="_blank">
       <h4>CSEN 171: Design and Implementation of Programming Languages</h4>
       <p>Session: Fall '25</p>
-    </div>
+    </a>
   </div>
 </div>
 
