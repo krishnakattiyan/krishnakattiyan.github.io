@@ -3,6 +3,14 @@ title: "WINLAB"
 description: "Wireless Intelligent Networks (WIN) Lab at Santa Clara University"
 ---
 
+<div style="display: flex; flex-direction: column; align-items: center; gap: 14px; margin-bottom: 28px;">
+  <img src="/scu_win_lab_logo.jpeg" alt="WIN Lab Logo" style="width: 160px; height: 160px; object-fit: contain; border-radius: 16px;" />
+  <a href="https://www.linkedin.com/company/scu-win-lab/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; background-color: #0A66C2; color: #fff; border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; transition: background-color 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 2px 8px rgba(10,102,194,0.25);" onmouseover="this.style.backgroundColor='#004182';this.style.boxShadow='0 4px 14px rgba(10,102,194,0.4)';" onmouseout="this.style.backgroundColor='#0A66C2';this.style.boxShadow='0 2px 8px rgba(10,102,194,0.25)';">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    Follow us on LinkedIn
+  </a>
+</div>
+
 <p style="font-size: 14px; line-height: 1.8;">
   The <strong>Wireless Intelligent Networks (WIN) Lab</strong> at Santa Clara University explores next-generation wireless systems that adapt, learn, and make intelligent decisions — with a focus on efficient resource allocation, smarter access protocols, and user-centered performance.
 </p>
@@ -364,10 +372,13 @@ Whether you’re passionate about future wireless networks, curious about how ma
 </style>
 
 <h3 style="margin-top: 8px;">Semantic Aware User Grouping for 6G NOMA</h3>
+<p style="font-size: 14px; line-height: 1.8;">
+Method for grouping users in 6G Non-Orthogonal Multiple Access (NOMA) networks that accounts not only for signal strength and interference, but also for how important each user's data is to transmit accurately (semantic importance). The approach aims to improve overall network efficiency and user experience by prioritizing the most meaningful information while maintaining strong performance across all connected users.
+</p>
 <div class="gallery-wrapper">
 <div class="gallery-scroll">
 <div class="gallery-item">
-<img src="/win0.png" loading="lazy" data-caption="Click the image for project details." data-link="https://drive.google.com/file/d/12F5-P4dct3hl-_B_vAe0MAUBt1dEbzD7/view?usp=sharing" alt="6G Semantic Q Learning NOMA" />
+<img src="/win0.png" loading="lazy" data-caption="6G Semantic Q Learning NOMA" data-link="https://drive.google.com/file/d/12F5-P4dct3hl-_B_vAe0MAUBt1dEbzD7/view?usp=sharing" alt="6G Semantic Q Learning NOMA" />
 <div class="gallery-caption">6G Semantic Q Learning NOMA</div>
 </div>
 <div class="gallery-item">
@@ -460,6 +471,17 @@ Whether you’re passionate about future wireless networks, curious about how ma
 })();
 </script>
 
+<h3 style="margin-top: 36px;">Deep Reinforcement Learning for Intelligent Traffic Distributions</h3>
+<p style="font-size: 14px; line-height: 1.8;">
+Context aware reinforcement learning scheduler for Wi-Fi 7 that learns which band (2.4/5/6 GHz) to use for uplink traffic based on current signal quality, congestion, and needs of different applications. Learned policy adapted to changing distance, interference, and traffic load, delivering near optimal latency and large delay reductions compared with fixed and round robin scheduling.
+</p>
+<div style="display: flex; justify-content: center; margin-top: 16px; margin-bottom: 8px;">
+  <div style="width: min(560px, 100%); background: var(--entry); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+    <img src="/dql1.png" loading="lazy" data-caption="DQL Wi-Fi 7 Band Scheduler" alt="Deep Reinforcement Learning for Intelligent Traffic Distributions" style="width: 100%; height: auto; display: block; background: #f5f5f5; object-fit: contain; cursor: zoom-in;" onclick="(function(img){var lb=document.getElementById('win-lightbox');var lbImg=lb.querySelector('.win-lightbox-img');var lbCap=lb.querySelector('.win-lightbox-caption');lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=img.getAttribute('data-caption')||'';lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';})(this)" />
+    <div style="padding: 12px 14px; color: var(--content); font-size: 0.9rem; font-weight: 500;">DQL Wi-Fi 7 Band Scheduler</div>
+  </div>
+</div>
+
 </div>
 
 
@@ -484,24 +506,32 @@ Whether you’re passionate about future wireless networks, curious about how ma
   <h3>Graduate Students</h3>
   <div class="team-grid-2col">
     <div class="member-card">
-      <img src="/zack.webp" alt="Zack Common" class="member-photo">
-      <div class="member-name">Zack Common</div>
-      <div class="member-role">M.S. Student</div>
+      <a href="https://www.linkedin.com/in/zachary-common/" target="_blank">
+        <img src="/zack.webp" alt="Zack Common" class="member-photo">
+        <div class="member-name">Zack Common</div>
+        <div class="member-role">M.S. Student</div>
+      </a>
     </div>
     <div class="member-card">
-      <img src="/Brian.PNG" alt="Brian Trinh" class="member-photo">
-      <div class="member-name">Brian Trinh</div>
-      <div class="member-role">M.S. Student</div>
+      <a href="https://www.linkedin.com/in/briantrinh00/" target="_blank">
+        <img src="/Brian.PNG" alt="Brian Trinh" class="member-photo">
+        <div class="member-name">Brian Trinh</div>
+        <div class="member-role">M.S. Student</div>
+      </a>
     </div>
     <div class="member-card">
-      <img src="/tom.webp" alt="Tom Ngo" class="member-photo">
-      <div class="member-name">Tom Ngo</div>
-      <div class="member-role">M.S. Student</div>
+      <a href="https://www.linkedin.com/in/duyngoph/" target="_blank">
+        <img src="/tom.webp" alt="Tom Ngo" class="member-photo">
+        <div class="member-name">Tom Ngo</div>
+        <div class="member-role">M.S. Student</div>
+      </a>
     </div>
     <div class="member-card">
-      <img src="/khushi.webp" alt="Khushi Savaliya" class="member-photo">
-      <div class="member-name">Khushi Savaliya</div>
-      <div class="member-role">M.S. Student</div>
+      <a href="https://www.linkedin.com/in/khushi-savaliya/" target="_blank">
+        <img src="/khushi.webp" alt="Khushi Savaliya" class="member-photo">
+        <div class="member-name">Khushi Savaliya</div>
+        <div class="member-role">M.S. Student</div>
+      </a>
     </div>
   </div>
 </div>
@@ -510,11 +540,15 @@ Whether you’re passionate about future wireless networks, curious about how ma
 <div class="team-section">
   <h3>Alumni</h3>
   <div class="alumni-grid">
-    <div class="alumni-chip">Mrudhula Lokesh</div>
-    <div class="alumni-chip">
-      <div class="alumni-name">Samarth Kulkarni</div>
-      <div class="alumni-dest">→ Piedmont Global Language Systems (PGLS)</div>
-    </div>
+    <a href="https://www.linkedin.com/in/mrudhula-lokesh-173b1a1aa/" target="_blank" style="text-decoration: none;">
+      <div class="alumni-chip">Mrudhula Lokesh</div>
+    </a>
+    <a href="https://www.linkedin.com/in/samarth-kulkarni-a97891189/" target="_blank" style="text-decoration: none;">
+      <div class="alumni-chip">
+        <div class="alumni-name">Samarth Kulkarni</div>
+        <div class="alumni-dest">→ Piedmont Global Language Systems (PGLS)</div>
+      </div>
+    </a>
   </div>
 </div>
 

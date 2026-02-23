@@ -3,6 +3,12 @@
 <header class="page-header">
 </header>
 
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content -}}
+</div>
+{{- end }}
+
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- if site.Params.ShowAllPagesInArchive }}
 {{- $pages = site.RegularPages }}
