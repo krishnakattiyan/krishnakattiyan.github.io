@@ -471,14 +471,18 @@ Method for grouping users in 6G Non-Orthogonal Multiple Access (NOMA) networks t
 })();
 </script>
 
-<h3 style="margin-top: 36px;">Deep Reinforcement Learning for Intelligent Traffic Distributions</h3>
+<h3 style="margin-top: 36px;">Wi-Fi 7 Multi-Link Scheduling with Reinforcement Learning</h3>
 <p style="font-size: 14px; line-height: 1.8;">
-Context aware reinforcement learning scheduler for Wi-Fi 7 that learns which band (2.4/5/6 GHz) to use for uplink traffic based on current signal quality, congestion, and needs of different applications. Learned policy adapted to changing distance, interference, and traffic load, delivering near optimal latency and large delay reductions compared with fixed and round robin scheduling.
+Wi-Fi 7 Multi-Link Operation project that uses simulation plus reinforcement learning to decide which band (2.4/5/6 GHz) should carry each uplink packet or video frame as conditions change (signal quality, congestion, interference, etc). Improves what users actually feel, lower delay for interactive traffic, and fewer stalls/missed deadlines for HEVC (H.265) streaming. Outperforms fixed band and simple round robin/heuristic scheduling under challenging network conditions.
 </p>
-<div style="display: flex; justify-content: center; margin-top: 16px; margin-bottom: 8px;">
-  <div style="width: min(560px, 100%); background: var(--entry); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
-    <img src="/dql1.png" loading="lazy" data-caption="DQL Wi-Fi 7 Band Scheduler" alt="Deep Reinforcement Learning for Intelligent Traffic Distributions" style="width: 100%; height: auto; display: block; background: #f5f5f5; object-fit: contain; cursor: zoom-in;" onclick="(function(img){var lb=document.getElementById('win-lightbox');var lbImg=lb.querySelector('.win-lightbox-img');var lbCap=lb.querySelector('.win-lightbox-caption');lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=img.getAttribute('data-caption')||'';lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';})(this)" />
-    <div style="padding: 12px 14px; color: var(--content); font-size: 0.9rem; font-weight: 500;">DQL Wi-Fi 7 Band Scheduler</div>
+<div style="display: flex; gap: 16px; justify-content: center; margin-top: 16px; margin-bottom: 8px; flex-wrap: wrap;">
+  <div style="width: min(340px, 100%); background: var(--entry); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+    <img src="/dql1.png" loading="lazy" data-caption="DQL Wi-Fi 7 Band Scheduler" alt="DQL Wi-Fi 7 Band Scheduler" style="width: 100%; height: 180px; display: block; background: #f5f5f5; object-fit: contain; cursor: zoom-in;" onclick="(function(img){var lb=document.getElementById('win-lightbox');var lbImg=lb.querySelector('.win-lightbox-img');var lbCap=lb.querySelector('.win-lightbox-caption');lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=img.getAttribute('data-caption')||'';lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';})(this)" />
+    <div style="padding: 10px 14px; color: var(--content); font-size: 0.85rem; font-weight: 500;">DQL Wi-Fi 7 Band Scheduler</div>
+  </div>
+  <div style="width: min(340px, 100%); background: var(--entry); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 6px 20px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
+    <img src="/qoe1.png" loading="lazy" data-caption="QoE-Aware Wi-Fi 7 Scheduling" alt="QoE-Aware Wi-Fi 7 Scheduling" style="width: 100%; height: 180px; display: block; background: #f5f5f5; object-fit: contain; cursor: zoom-in;" onclick="(function(img){var lb=document.getElementById('win-lightbox');var lbImg=lb.querySelector('.win-lightbox-img');var lbCap=lb.querySelector('.win-lightbox-caption');lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=img.getAttribute('data-caption')||'';lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';})(this)" />
+    <div style="padding: 10px 14px; color: var(--content); font-size: 0.85rem; font-weight: 500;">QoE-Aware Wi-Fi 7 Scheduling</div>
   </div>
 </div>
 
