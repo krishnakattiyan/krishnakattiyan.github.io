@@ -90,7 +90,15 @@ description: ""
 
 <!-- 📌 NEWS -->
 <div id="news" class="bio-section active">
-<div style="font-size: 14px; line-height: 1.8;">
+<div style="font-size: 14px; line-height: 1.8; max-height: 260px; overflow-y: auto; padding-right: 10px; border-left: 3px solid #ffd580; padding-left: 14px;">
+  <p><strong>📌 February 20, 2026</strong> – Derek Chui presented his work on <em>"Semantic-Aware Learning-Based NOMA User Grouping for Programmable 6G RANs"</em> at the SCU Student Research Showcase.</p>
+  <p><strong>📌 February 20, 2026</strong> – Mrudhula Lokesh and Khushi Savaliya presented their work on <em>"QoE-Aware Reinforcement Learning for HEVC Video Delivery over Wi-Fi 7 Multi-Link Networks"</em> at the SCU Student Research Showcase.</p>
+  <p><strong>📌 February 20, 2026</strong> – Brian Trinh presented his work on <em>"Deep Reinforcement Learning for Intelligent Traffic Distribution in IEEE 802.11be Multi-Link Operation"</em> at the SCU Student Research Showcase.</p>
+  <p><strong>📌 November 7, 2025</strong> – Received the <em>2FURS Grant</em> from Santa Clara University in support of undergraduate research at the Wireless Intelligent Networks (WIN) Lab.</p>
+  <p><strong>📌 October 16, 2025</strong> – Brian Trinh presented his work on <em>"Deep Reinforcement Learning for Intelligent Traffic Distribution in IEEE 802.11be Multi-Link Operation"</em> at BayLearn – Machine Learning Symposium, San Francisco Bay Area.</p>
+  <p><strong>📌 June 14, 2025</strong> – Students Varun Mangla and Zachary Common were honored with the <em>Computer Science and Engineering Award for Technical Excellence</em>, awarded to seniors whose capstone design project is distinguished by an exceptionally high degree of technical and scholarly achievement.</p>
+  <p><strong>📌 May 9, 2025</strong> – Students Varun Mangla, Zachary Common, and Gaby Gamarro-Gomez presented their work at the 55th Senior Design Conference and won the session award.</p>
+  <p><strong>📌 May 9, 2025</strong> – Students Logan Calder, Grant Johnson, John Alvarado, and Jack Landers presented their work at the 55th Senior Design Conference and won the session award.</p>
   <p><strong>📌 March 24, 2025</strong> – Students presented their research at the <em>IEEE Wireless Communications and Networking Conference (WCNC)</em> in Milan, Italy.</p>
   <p><strong>📌 November 18, 2024</strong> – Received the <em>2FURS Grant</em> from Santa Clara University in support of undergraduate research at the Wireless Intelligent Networks (WIN) Lab.</p>
   <p><strong>📌 September 1, 2024</strong> – Began appointment as a tenure-track Assistant Professor in the Department of Computer Science and Engineering at <em>Santa Clara University</em>.</p>
