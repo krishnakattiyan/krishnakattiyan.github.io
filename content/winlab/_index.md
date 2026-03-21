@@ -118,6 +118,13 @@ Whether you’re passionate about future wireless networks, curious about how ma
 
 .member-card a {
   text-decoration: none;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.alumni-grid a {
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 .member-name {
@@ -545,13 +552,10 @@ Wi-Fi 7 Multi-Link Operation project that uses simulation plus reinforcement lea
   <h3>Alumni</h3>
   <div class="alumni-grid">
     <a href="https://www.linkedin.com/in/mrudhula-lokesh-173b1a1aa/" target="_blank" style="text-decoration: none;">
-      <div class="alumni-chip">Mrudhula Lokesh</div>
+      <div class="alumni-chip">Mrudhula Lokesh - Qualcomm</div>
     </a>
     <a href="https://www.linkedin.com/in/samarth-kulkarni-a97891189/" target="_blank" style="text-decoration: none;">
-      <div class="alumni-chip">
-        <div class="alumni-name">Samarth Kulkarni</div>
-        <div class="alumni-dest">→ Piedmont Global Language Systems (PGLS)</div>
-      </div>
+      <div class="alumni-chip">Samarth Kulkarni - Piedmont Global Language Systems (PGLS)</div>
     </a>
   </div>
 </div>

@@ -90,10 +90,11 @@ description: ""
       <h4>CSEN 79: OO Programming and Advanced Data Structures</h4>
       <p>Session: Winter '25</p>
     </div>
-    <a href="/CSEN_171__Syllabus__Section1-3.pdf" class="course-glow-card" target="_blank">
+    <div class="course-glow-card" onclick="openSyllabus()" style="cursor:pointer;">
       <h4>CSEN 171: Design and Implementation of Programming Languages</h4>
       <p>Session: Fall '25</p>
-    </a>
+      <p style="margin-top:8px; font-size:12px; font-weight:600; color:#b07800;">📄 View Syllabus ↗</p>
+    </div>
   </div>
 </div>
 
@@ -107,6 +108,30 @@ description: ""
     </div>
   </div>
 </div>
+
+<!-- Syllabus Modal -->
+<div id="syllabus-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:9999; align-items:center; justify-content:center;" onclick="closeSyllabusOutside(event)">
+  <div id="syllabus-modal-inner" style="background:#fff; border-radius:16px; width:90%; max-width:860px; height:85vh; display:flex; flex-direction:column; overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,0.25);">
+    <div style="display:flex; align-items:center; justify-content:space-between; padding:14px 20px; border-bottom:1px solid #eee;">
+      <span style="font-weight:600; font-size:15px;">CSEN 171 Syllabus</span>
+      <button onclick="closeSyllabus()" style="background:none; border:none; font-size:22px; cursor:pointer; line-height:1; color:#555;">&#x2715;</button>
+    </div>
+    <iframe src="/CSEN_171__Syllabus__Section1-3.pdf" style="flex:1; border:none; width:100%;"></iframe>
+  </div>
+</div>
+
+<script>
+function openSyllabus() {
+  const m = document.getElementById('syllabus-modal');
+  m.style.display = 'flex';
+}
+function closeSyllabus() {
+  document.getElementById('syllabus-modal').style.display = 'none';
+}
+function closeSyllabusOutside(e) {
+  if (e.target === document.getElementById('syllabus-modal')) closeSyllabus();
+}
+</script>
 
 
 

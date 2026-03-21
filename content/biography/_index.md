@@ -108,22 +108,38 @@ description: ""
 <!-- 🤝 SERVICE -->
 <div id="service" class="bio-section">
   <p style="font-size: 16px; line-height: 1.8;"><strong>Technical Program Committee:</strong></p>
-  <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
-    <li>IEEE Wireless Communications and Networking Conference (WCNC): 2023, 2024, 2025</li>
-    <li>IEEE Global Communications Conference (Globecom): 2019</li>
-    <li>IEEE Intermountain Engineering, Technology and Computing Conference (IETC): 2024</li>
+  <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+    <li>IEEE 51st Conference on Local Computer Networks (LCN) — 2026</li>
+    <li>IEEE Global Communications Conference (Globecom) – Track 1: Communication & Information System Security — 2026</li>
+    <li>IEEE International Conference on Communications and Computer Networks (ICCCN) – Track 5: Mobile/Pervasive Communications, Networking and Sensing — 2026</li>
+    <li>IEEE Wireless Communications and Networking Conference (WCNC) – Demo — 2025</li>
+    <li>IEEE International Conference on Computing, Networking and Communications (ICNC) – Track 5: Multimedia Computing and Communications (MCC) — 2024</li>
+    <li>IEEE Intermountain Engineering, Technology and Computing Conference (IETC) — 2024</li>
   </ul>
 
   <p style="font-size: 16px; line-height: 1.8;"><strong>Technical Reviewer:</strong></p>
-  <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
-    <li>IEEE Communications Magazine — 2024</li>
+  <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+    <li>IEEE Wireless Communications and Networking Conference (WCNC) — 2023, 2024, 2025</li>
+    <li>IEEE Global Communications Conference (Globecom) — 2019</li>
+    <li>KDD Undergraduate and Masters Consortium — 2025</li>
+  </ul>
+
+  <p style="font-size: 16px; line-height: 1.8;"><strong>Journal Reviewer:</strong></p>
+  <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+    <li>IEEE Wireless Communications Magazine — 2024, 2025</li>
     <li>Results in Optics — 2023</li>
     <li>International Journal of Electrical, Electronics and Computer Systems (IJEECS) — 2021</li>
   </ul>
 
   <p style="font-size: 16px; line-height: 1.8;"><strong>Judge:</strong></p>
-  <ul style="font-size: 15px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+  <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
     <li>Student Research Symposium, San Diego State University — 2023</li>
+  </ul>
+
+  <p style="font-size: 16px; line-height: 1.8;"><strong>Faculty Advisor:</strong></p>
+  <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+    <li>Aztec Quantum Computing Club, San Diego State University — 2023–2024</li>
+    <li>Girls Who Code Chapter at San Diego State University — 2023–2024</li>
   </ul>
 </div>
 
