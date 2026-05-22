@@ -7,6 +7,12 @@ description: ""
 Student co-authors I supervised are denoted with an asterisk (*).
 
 <div style="font-size: 14px; line-height: 1.6; margin-bottom: 5px;">
+  + D. Chui*, W. Wang and <strong>KMK Ramamoorthy</strong><br>
+  <span style="color:saddlebrown;">Semantic-Aware Learning-Based NOMA User Grouping for Programmable 6G RANs</span><br>
+  in Proc. IEEE Wireless Communications and Networking Conference (WCNC), Apr. 2026.
+</div>
+
+<div style="font-size: 14px; line-height: 1.6; margin-bottom: 5px;">
   + A. Rajpurohit*, M. Kelley*, W. Wang and <strong>KMK Ramamoorthy</strong><br>
   <span style="color:saddlebrown;">BALANCE: Bitrate-Adaptive Limit-Aware Netcast Content Enhancement Utilizing QUBO and Quantum Annealing</span><br>
   in Proc. IEEE Wireless Communications and Networking Conference (WCNC), Mar. 2025.
