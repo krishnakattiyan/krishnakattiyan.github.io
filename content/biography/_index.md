@@ -91,6 +91,11 @@ description: ""
 <!-- 📌 NEWS -->
 <div id="news" class="bio-section active">
 <div style="font-size: 14px; line-height: 1.8; max-height: 260px; overflow-y: auto; padding-right: 10px; border-left: 3px solid #ffd580; padding-left: 14px;">
+  <p><strong>📌 May 21, 2026</strong> – Derek Chui and Guangyi Liu selected as an <em>HPC Undergraduate Research Scholar</em> by the High-Performance Computing Center at Santa Clara University.</p>
+  <p><strong>📌 May 8, 2026</strong> – Sattvika Bhatt, Austin Nguyen, Dhruv Patel, Izzy Perez, and Shaunak Sharma (Team SCU2U) won the session award at the Senior Design Conference.</p>
+  <p><strong>📌 May 7, 2026</strong> – Invited talk <em>"What's Next in Wireless: From Wi-Fi to 6G,"</em> at the SCU Alumni Meeting.</p>
+  <p><strong>📌 May 7, 2026</strong> – Derek Chui was named a finalist for the SCU Undergraduate Research Award for his paper <em>"Semantic-Aware Learning-Based NOMA User Grouping for Programmable 6G RANs."</em></p>
+  <p><strong>📌 April 13, 2026</strong> – Presented <em>"Semantic-Aware Learning-Based NOMA User Grouping for Programmable 6G RANs"</em> at the IEEE Wireless Communications and Networking Conference (WCNC), Kuala Lumpur, Malaysia.</p>
   <p><strong>📌 February 20, 2026</strong> – Derek Chui presented his work on <em>"Semantic-Aware Learning-Based NOMA User Grouping for Programmable 6G RANs"</em> at the SCU Student Research Showcase.</p>
   <p><strong>📌 February 20, 2026</strong> – Mrudhula Lokesh and Khushi Savaliya presented their work on <em>"QoE-Aware Reinforcement Learning for HEVC Video Delivery over Wi-Fi 7 Multi-Link Networks"</em> at the SCU Student Research Showcase.</p>
   <p><strong>📌 February 20, 2026</strong> – Brian Trinh presented his work on <em>"Deep Reinforcement Learning for Intelligent Traffic Distribution in IEEE 802.11be Multi-Link Operation"</em> at the SCU Student Research Showcase.</p>
@@ -138,6 +143,7 @@ description: ""
 
   <p style="font-size: 16px; line-height: 1.8;"><strong>Faculty Advisor:</strong></p>
   <ul style="font-size: 14px; line-height: 1.8; padding-left: 20px; margin-top: -10px;">
+    <li>Association for Computing Machinery (ACM) Student Chapter, Santa Clara University — 2026–Present</li>
     <li>Aztec Quantum Computing Club, San Diego State University — 2023–2024</li>
     <li>Girls Who Code Chapter at San Diego State University — 2023–2024</li>
   </ul>

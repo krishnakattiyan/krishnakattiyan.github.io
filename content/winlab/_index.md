@@ -509,6 +509,13 @@ Wi-Fi 7 Multi-Link Operation project that uses simulation plus reinforcement lea
         <div class="member-role">B.S. Student</div>
       </a>
     </div>
+    <div class="member-card">
+      <a href="https://www.linkedin.com/in/guangyi-liu-59ab56341/" target="_blank">
+        <img src="/guangyi.png" alt="Guangyi Liu" class="member-photo">
+        <div class="member-name">Guangyi Liu</div>
+        <div class="member-role">B.S. Student</div>
+      </a>
+    </div>
   </div>
 </div>
 

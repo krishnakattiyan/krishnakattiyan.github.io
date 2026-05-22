@@ -83,6 +83,10 @@ description: ""
   <div class="course-glow-title">Undergraduate</div>
   <div class="course-glow-column">
     <div class="course-glow-card">
+      <h4>CSEN 146: Computer Networks</h4>
+      <p>Session: Spring '26</p>
+    </div>
+    <div class="course-glow-card">
       <h4>CSEN 11: Advanced Programming</h4>
       <p>Session: Winter '26</p>
     </div>
@@ -92,7 +96,7 @@ description: ""
     </div>
     <div class="course-glow-card" onclick="openSyllabus()" style="cursor:pointer;">
       <h4>CSEN 171: Design and Implementation of Programming Languages</h4>
-      <p>Session: Fall '25</p>
+      <p>Session: Fall '25, Fall '26</p>
       <p style="margin-top:8px; font-size:12px; font-weight:600; color:#b07800;">📄 View Syllabus ↗</p>
     </div>
   </div>
