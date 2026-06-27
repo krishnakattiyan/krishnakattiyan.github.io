@@ -538,7 +538,7 @@ Wi-Fi 7 Multi-Link Operation project that uses simulation plus reinforcement lea
       </a>
     </div>
     <div class="member-card">
-      <a href="https://www.linkedin.com/in/duyngoph/" target="_blank">
+      <a href="https://duyngoph.github.io/" target="_blank">
         <img src="/tom.webp" alt="Tom Ngo" class="member-photo">
         <div class="member-name">Tom Ngo</div>
         <div class="member-role">M.S. Student</div>
