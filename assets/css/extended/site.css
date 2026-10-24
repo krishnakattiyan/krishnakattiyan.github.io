@@ -568,3 +568,34 @@ img.zoomable {
     white-space: normal;
   }
 }
+
+/* WIN Lab page: title and LinkedIn on the left, logo on the right */
+.lab-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin: 24px 0 20px;
+}
+
+.post-content h1.lab-title {
+  font-size: var(--h1size);
+  line-height: 1.2;
+  margin: 0 0 14px;
+}
+
+.post-content img.lab-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* links inside home page paragraphs look like links */
+.home-content p a {
+  color: #2f5fb3;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  box-shadow: none;
+}
