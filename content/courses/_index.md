@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Courses"
 description: ""
 ---
 
@@ -110,6 +110,10 @@ description: ""
       <h4>CSEN 233: Computer Networks</h4>
       <p>Session: Fall '24</p>
     </div>
+    <div class="course-glow-card">
+      <h4>CSEN 331: Wireless and Mobile Networks</h4>
+      <p>Session: Winter '27</p>
+    </div>
   </div>
 </div>
 
@@ -120,7 +124,7 @@ description: ""
       <span style="font-weight:600; font-size:15px;">CSEN 171 Syllabus</span>
       <button onclick="closeSyllabus()" style="background:none; border:none; font-size:22px; cursor:pointer; line-height:1; color:#555;">&#x2715;</button>
     </div>
-    <iframe src="/CSEN_171__Syllabus__Section1-3.pdf" style="flex:1; border:none; width:100%;"></iframe>
+    <iframe src="/courses/csen171-syllabus.pdf" style="flex:1; border:none; width:100%;"></iframe>
   </div>
 </div>
 

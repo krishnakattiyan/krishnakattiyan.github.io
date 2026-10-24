@@ -1,0 +1,570 @@
+/* home: profile card on top, page content below instead of a full-height card */
+.main .profile {
+  min-height: auto;
+  padding-top: 24px;
+}
+
+.home-content {
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.home-content h2,
+.lab-page h2,
+.section-head {
+  font-size: 22px;
+  margin: 44px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #ffd580;
+}
+
+.home-content ul {
+  padding-left: 20px;
+}
+
+.cv-button,
+.pill-button {
+  display: inline-block;
+  padding: 10px 24px;
+  font-weight: 600;
+  color: #333;
+  background-color: #ffd580;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cv-button:hover,
+.pill-button:hover {
+  background-color: #ffcc5c;
+  transform: translateY(-2px);
+}
+
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* team */
+.team-section h3 {
+  text-align: center;
+  font-size: 18px;
+  margin: 28px 0 18px;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.member-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 12px;
+  padding: 20px 14px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(244, 162, 97, 0.25);
+  border-color: #f4a261;
+}
+
+.member-card a {
+  text-decoration: none;
+  box-shadow: none !important;
+}
+
+.post-content .member-card img.member-photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 12px;
+  border: 3px solid #f0f0f0;
+}
+
+.member-initials {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f2f6;
+  color: #888;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 15px;
+  white-space: nowrap;
+  color: #f4a261;
+  margin-bottom: 4px;
+}
+
+.member-role {
+  font-size: 13px;
+  color: #636e72;
+}
+
+.alumni-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.alumni-grid a {
+  box-shadow: none !important;
+}
+
+.alumni-chip {
+  background: #f1f2f6;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* photo grids (beyond work) */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 10px 0 24px;
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid a {
+  box-shadow: none !important;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-grid figcaption {
+  font-size: 13px;
+  color: #636e72;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.photo-group-title {
+  font-size: 16px;
+  margin: 18px 0 4px;
+}
+
+.photo-group-meta {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+/* About heading with the CV button on its right */
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.section-head h2 {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.section-head .cv-button {
+  padding: 6px 16px;
+  font-size: 14px;
+}
+
+/* home cards, one row each for research, teaching and service */
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 36px 0 12px;
+}
+
+.pillar-research { --accent: #2f5fb3; }
+.pillar-teaching { --accent: #2a9d8f; }
+.pillar-service { --accent: #d48a1f; }
+
+.pillar-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.pillar-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .pillar-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.module {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--accent);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+  color: #2d3436;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.module:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1) !important;
+}
+
+.module-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.module-stat {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.module-stat span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #636e72;
+}
+
+.module-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+
+
+
+.module-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 12%, white);
+  color: #333;
+}
+
+.home-content p {
+  margin-bottom: 1em;
+}
+
+/* publications list */
+.pub {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.post-content .pub .pub-title {
+  color: saddlebrown;
+}
+
+/* profile header */
+.profile .roles {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.profile .tagline {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.profile .contact {
+  font-size: 14px;
+  color: #636e72;
+}
+
+.section-head .head-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.section-head .social-icons {
+  padding: 0;
+}
+
+.section-head .social-icons a {
+  box-shadow: none !important;
+}
+
+.member-role {
+  line-height: 1.4;
+}
+
+/* cards look clickable */
+.module {
+  cursor: pointer;
+}
+
+.module .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.module:hover .arrow {
+  transform: translateX(4px);
+}
+
+.module-split {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-split > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-content .module img,
+.module img.module-logo {
+  margin: 0;
+}
+
+.module img.module-logo {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.module-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.module-photos img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* menu colored by pillar */
+#menu a[href$="/winlab/"] span,
+#menu a[href$="/papers/"] span { color: #2f5fb3; }
+#menu a[href$="/design/"] span,
+#menu a[href$="/courses/"] span { color: #2a9d8f; }
+#menu a[href$="/service/"] span,
+#menu a[href$="/beyond/"] span { color: #d48a1f; }
+
+/* senior design */
+.sd-year {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 36px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #2a9d8f;
+}
+
+.sd-year h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.sd-year-links {
+  display: flex;
+  gap: 16px;
+}
+
+.post-content .sd-year-links a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a9d8f;
+  box-shadow: none;
+}
+
+.sd-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sd-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #2a9d8f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+.post-content .sd-card img.sd-image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.sd-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+
+.sd-badge {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 12px;
+  padding: 3px 10px;
+  margin: 0 6px 6px 0;
+  border-radius: 12px;
+  background: #fff3d6;
+  color: #7a5a00;
+}
+
+.sd-status {
+  background: #e3f4f1;
+  color: #1d6f65;
+}
+
+.sd-team {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.sd-advisors {
+  font-size: 13px;
+  color: #636e72;
+}
+
+.sd-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0 6px;
+}
+
+.post-content a.sd-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a9d8f;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .sd-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* alumni in a 2 by 2 grid */
+.team-section.alumni .team-grid {
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* lightbox */
+img.zoomable {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  background: rgba(20, 20, 20, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  cursor: zoom-out;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: min(92vw, 1100px);
+  max-height: 82vh;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox-caption {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .sd-badge {
+    white-space: normal;
+  }
+}

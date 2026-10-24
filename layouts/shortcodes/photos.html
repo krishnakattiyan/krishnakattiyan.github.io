@@ -1,0 +1,13 @@
+{{- /* renders one list from data/photos.yaml, e.g. {{< photos "aquascaping" >}} */ -}}
+{{- range index site.Data.photos (.Get 0) }}
+{{- with .title }}<h3 class="photo-group-title">{{ . }}</h3>{{ end }}
+{{- with .meta }}<div class="photo-group-meta">{{ . }}</div>{{ end }}
+<div class="photo-grid">
+  {{- range .items }}
+  <figure>
+    <img src="{{ .image }}" alt="{{ .caption }}" class="zoomable" loading="lazy">
+    {{- with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{- end }}
+</div>
+{{- end }}

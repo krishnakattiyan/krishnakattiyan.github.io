@@ -1,0 +1,26 @@
+{{- /* click any .zoomable image to see it larger over a blurred page, click or Esc to close */ -}}
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <img alt="">
+  <div class="lightbox-caption"></div>
+</div>
+<script>
+(function () {
+  var box = document.getElementById('lightbox');
+  var big = box.querySelector('img');
+  var cap = box.querySelector('.lightbox-caption');
+  function close() { box.classList.remove('open'); document.body.style.overflow = ''; }
+  document.addEventListener('click', function (e) {
+    var img = e.target.closest('img.zoomable');
+    if (img) {
+      e.preventDefault();
+      big.src = img.currentSrc || img.src;
+      cap.textContent = img.dataset.caption || img.alt || '';
+      box.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    } else if (box.classList.contains('open')) {
+      close();
+    }
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
+</script>

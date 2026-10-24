@@ -1,0 +1,14 @@
+# Photo grids used across the site. Images live in static/beyond/.
+# Add a new year or event at the top of its list.
+
+aquascaping:
+  - items:
+      - image: /beyond/aquascape-1.jpg
+      - image: /beyond/aquascape-2.jpg
+      - image: /beyond/aquascape-3.jpg
+
+kittens:
+  - items:
+      - image: /beyond/kittens-1.jpg
+      - image: /beyond/kittens-2.jpg
+      - image: /beyond/kittens-3.jpg

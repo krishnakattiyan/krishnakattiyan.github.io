@@ -1,0 +1,26 @@
+{{- /* renders data/seniordesign.yaml, add a new year at the top of that file */ -}}
+{{- range site.Data.seniordesign.years }}
+<div class="sd-year">
+  <h2>{{ .year }}</h2>
+  <div class="sd-year-links">
+    {{- with .page }}<a href="{{ . }}" target="_blank" rel="noopener">Conference →</a>{{ end }}
+    {{- with .program }}<a href="/design/{{ . }}" target="_blank" rel="noopener">Program (PDF) →</a>{{ end }}
+  </div>
+</div>
+<div class="sd-list">
+  {{- range .projects }}
+  <div class="sd-card">
+    {{- if .image }}<img src="/design/{{ .image }}" alt="" class="sd-image zoomable" loading="lazy">{{ end }}
+    <div class="sd-body">
+      <div class="sd-title">{{ .title }}</div>
+      {{- with .status }}<span class="sd-badge sd-status">{{ . }}</span>{{ end }}
+      {{- range .awards }}<span class="sd-badge">🏆 {{ . }}</span>{{ end }}
+      <div class="sd-team">{{ .team }}</div>
+      <div class="sd-advisors">Advisor{{ if in .advisors "," }}s{{ end }}: {{ .advisors }}</div>
+      <p class="sd-desc">{{ .description }}</p>
+      {{- if .link }}<a href="{{ .link }}" target="_blank" rel="noopener" class="sd-link">{{ .linktext | default "Learn more" }} →</a>{{ end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- end }}

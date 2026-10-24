@@ -1,0 +1,82 @@
+# The Lab page builds Meet the Team from this file.
+# group: phd, grad, undergrad or alumni. To graduate someone, change group to alumni and add now.
+# photo: a square image in static/team/. Leave it out to show initials.
+
+members:
+  - name: Zack Common
+    group: grad
+    role: M.S. Student
+    photo: zack.webp
+    link: https://www.linkedin.com/in/zachary-common/
+
+  - name: Tom Ngo
+    group: grad
+    role: M.S. Student
+    photo: tom.webp
+    link: https://duyngoph.github.io/
+
+  - name: Sahana Chandramohan
+    group: grad
+    role: M.S. Student
+    photo: sahana.png
+    link: https://www.linkedin.com/in/sahanachandramohan
+
+  - name: Derek Chui
+    group: undergrad
+    role: B.S. Student
+    photo: derek.png
+    link: https://derekchui.com/
+
+  - name: Ramon Anaya
+    group: undergrad
+    role: B.S. Student
+    photo: ramon.png
+    link: https://www.linkedin.com/in/ramon-anaya-418655354
+
+  - name: Pedro Aguirre-Salas
+    group: undergrad
+    role: B.S. Student
+    photo: pedro.png
+    link: https://www.linkedin.com/in/pedro-aguirre-salas-12a78a2b3
+
+  - name: Monica Reyes
+    group: undergrad
+    role: B.S. Student
+    photo: monica.png
+    link: https://www.linkedin.com/in/monica-reyes-9257692a9
+
+  - name: Collin Fiske
+    group: undergrad
+    role: B.S. Student
+    photo: collin.png
+    link: https://www.linkedin.com/in/collinfiske
+
+  - name: Guangyi Liu
+    group: undergrad
+    role: B.S. Student
+    photo: guangyi.png
+    link: https://www.linkedin.com/in/guangyi-liu-59ab56341/
+
+  - name: Brian Trinh
+    group: alumni
+    photo: brian.png
+    now: SanDisk
+    link: https://www.linkedin.com/in/briantrinh00/
+
+  - name: Khushi Savaliya
+    group: alumni
+    photo: khushi.png
+    now: SCU Provost's Office
+    link: https://www.linkedin.com/in/khushi-savaliya/
+
+  - name: Mrudhula Lokesh
+    group: alumni
+    photo: mrudhula.png
+    now: Qualcomm
+    link: https://www.linkedin.com/in/mrudhula-lokesh-173b1a1aa/
+
+  - name: Samarth Kulkarni
+    group: alumni
+    photo: samarth.png
+    now: Piedmont Global Language Systems (PGLS)
+    link: https://www.linkedin.com/in/samarth-kulkarni-a97891189/

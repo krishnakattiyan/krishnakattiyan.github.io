@@ -10,24 +10,27 @@ taxonomies:
 
 menu:
     main:
-        - name: Biography
-          url: biography/
-          weight: 1 
+        - name: Home
+          url: /
+          weight: 1
         - name: WIN Lab
           url: winlab/
           weight: 2
         - name: Publications
           url: papers/
           weight: 3
-        - name: Teaching
-          url: courses/
-          weight: 4
         - name: Senior Design
           url: design/
+          weight: 4
+        - name: Courses
+          url: courses/
           weight: 5
-        - name: Archive
-          url: archive/
+        - name: Professional Activities
+          url: service/
           weight: 6
+        - name: Beyond Work
+          url: beyond/
+          weight: 7
 params:
     description: "Assistant Professor of Computer Science and Engineering at the Santa Clara University."
     author: Krishna Ramamoorthy
@@ -44,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers","courses"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -56,41 +59,14 @@ params:
           enabled: true
           title: "Krishna Ramamoorthy"
           subtitle: "
-          Hi! I’m an Assistant Professor of Computer Science and Engineering and Director of the Wireless Intelligent Networks (WIN) Lab at Santa Clara University.
-          <br><br>
-
-          <p><strong>Office:</strong> Bergin 204</p>
-          <p><strong>Lab:</strong> Heafey 135</p>
-          500 El Camino Real, Santa Clara, CA 95053   <br>
-      
-
-          <br> <p><strong>Email:</strong> kkattiyanramamoorthy@scu.edu</p>
-
-          <br>
-
-          If you’re exploring new research directions or just want to bounce around ideas, I’m always up for a good conversation and a meaningful collaboration."
-          imageUrl: "picture.jpeg"
+          <div class=\"roles\">Assistant Professor of Computer Science and Engineering<br>Director, Wireless Intelligent Networks (WIN) Lab<br>Santa Clara University</div>
+          <div class=\"tagline\">If you’re exploring new research directions or just want to bounce around ideas, I’m always up for a good conversation and a meaningful collaboration.</div>
+          <div class=\"contact\"><strong>Office:</strong> Bergin 204 · <strong>Lab:</strong> Heafey 135 · 500 El Camino Real, Santa Clara, CA 95053</div>"
+          imageUrl: "home/profile.jpeg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Biography
-              url: biography/
-            - name: WIN Lab
-              url: winlab/
-            - name: Publications
-              url: papers/
-            - name: Teaching
-              url: courses/
-            - name: Senior Design
-              url: design/
-            - name: Archive
-              url: archive/
-            #- name: Blog
-            #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: KrishnaRamamoorthyCV.pdf
         - name: LinkedIn
           url: https://www.linkedin.com/in/krishnakattiyan/
         - name: Google Scholar

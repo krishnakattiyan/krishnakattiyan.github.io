@@ -1,0 +1,50 @@
+{{- /* renders data/team.yaml, edit that file to change the team */ -}}
+{{- $members := site.Data.team.members }}
+{{- $groups := slice
+  (dict "key" "undergrad" "title" "Undergraduate Students")
+  (dict "key" "grad" "title" "Graduate Students")
+  (dict "key" "phd" "title" "Ph.D. Students") }}
+{{- range $groups }}
+{{- $group := where $members "group" .key }}
+{{- if $group }}
+<div class="team-section">
+  <h3>{{ .title }}</h3>
+  <div class="team-grid">
+    {{- range $group }}
+    <div class="member-card">
+      <a href="{{ .link | default "#" }}" target="_blank" rel="noopener">
+        {{- if .photo }}
+        <img src="/team/{{ .photo }}" alt="{{ .name }}" class="member-photo" loading="lazy">
+        {{- else }}
+        <div class="member-initials">{{ range split .name " " }}{{ substr . 0 1 }}{{ end }}</div>
+        {{- end }}
+        <div class="member-name">{{ .name }}</div>
+        <div class="member-role">{{ .role }}</div>
+      </a>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{- end }}
+{{- $alumni := where $members "group" "alumni" }}
+{{- if $alumni }}
+<div class="team-section alumni">
+  <h3>Alumni</h3>
+  <div class="team-grid">
+    {{- range $alumni }}
+    <div class="member-card">
+      <a href="{{ .link | default "#" }}" target="_blank" rel="noopener">
+        {{- if .photo }}
+        <img src="/team/{{ .photo }}" alt="{{ .name }}" class="member-photo" loading="lazy">
+        {{- else }}
+        <div class="member-initials">{{ range split .name " " }}{{ substr . 0 1 }}{{ end }}</div>
+        {{- end }}
+        <div class="member-name">{{ .name }}</div>
+        <div class="member-role">{{ .now }}</div>
+      </a>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

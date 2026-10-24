@@ -1,0 +1,82 @@
+{{- /* home cards in three rows: research, teaching and service. Every number is read from the data files and pages, so nothing here needs editing */ -}}
+{{- $team := site.Data.team.members }}
+{{- $papers := site.Data.publications.papers }}
+
+{{- $codes := slice }}
+{{- range findRESubmatch `<h4>CSEN (\d+)` (site.GetPage "/courses").RawContent }}{{ $codes = $codes | append (int (index . 1)) }}{{ end }}
+{{- $codes = sort ($codes | uniq) }}
+
+{{- $projects := slice }}
+{{- $awards := 0 }}
+{{- range site.Data.seniordesign.years }}{{ range .projects }}{{ $projects = $projects | append . }}{{ with .awards }}{{ $awards = add $awards (len .) }}{{ end }}{{ end }}{{ end }}
+
+{{- $service := (site.GetPage "/service").RawContent }}
+{{- $kinds := slice }}
+{{- range findRESubmatch `\*\*([^*]+)\*\*` $service }}{{ $kinds = $kinds | append (index . 1) }}{{ end }}
+
+{{- $hobbies := slice }}
+{{- range findRESubmatch `\*\*([^*]+)\*\*` (site.GetPage "/beyond").RawContent }}{{ $hobbies = $hobbies | append (index . 1 | title) }}{{ end }}
+{{- $aqua := index (index site.Data.photos "aquascaping") 0 }}
+{{- $kits := index (index site.Data.photos "kittens") 0 }}
+
+<div class="pillars">
+
+  <div class="pillar pillar-research">
+    <div class="pillar-label">Research</div>
+    <div class="pillar-row">
+      <a class="module module-split" href="/winlab/">
+        <div>
+          <div class="module-title">WIN Lab <span class="arrow">→</span></div>
+          <div class="module-text">Wireless Intelligent Networks</div>
+          <div class="module-stat">
+            {{ len (where $team "group" "undergrad") }} <span>ugrad</span> ·
+            {{ len (where $team "group" "grad") }} <span>grad</span> ·
+            {{ len (where $team "group" "alumni") }} <span>alum</span>
+          </div>
+        </div>
+        <img src="/winlab/logo.png" alt="" class="module-logo">
+      </a>
+      <a class="module" href="/papers/">
+        <div class="module-title">Publications <span class="arrow">→</span></div>
+        <div class="module-stat">{{ len $papers }} <span>peer reviewed papers</span></div>
+        {{- with index $papers 0 }}<div class="module-text"><em>Latest:</em> {{ .title }}</div>{{ end }}
+      </a>
+    </div>
+  </div>
+
+  <div class="pillar pillar-teaching">
+    <div class="pillar-label">Teaching</div>
+    <div class="pillar-row">
+      <a class="module" href="/design/">
+        <div class="module-title">Senior Design <span class="arrow">→</span></div>
+        <div class="module-stat">{{ len $projects }} <span>projects advised</span>{{ with $awards }} · {{ . }} <span>awards</span>{{ end }}</div>
+        {{- with index $projects 0 }}<div class="module-text"><em>Latest:</em> {{ .title }}</div>{{ end }}
+      </a>
+      <a class="module" href="/courses/">
+        <div class="module-title">Courses <span class="arrow">→</span></div>
+        <div class="module-stat">{{ len $codes }} <span>classes</span></div>
+        <div class="module-chips">{{ range $codes }}<span class="chip">CSEN {{ . }}</span>{{ end }}</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="pillar pillar-service">
+    <div class="pillar-label">Service</div>
+    <div class="pillar-row">
+      <a class="module" href="/service/">
+        <div class="module-title">Professional Activities <span class="arrow">→</span></div>
+        <div class="module-stat">{{ len (findRE `(?m)^- ` $service) }} <span>roles</span></div>
+        <div class="module-chips">{{ range $kinds }}<span class="chip">{{ . }}</span>{{ end }}</div>
+      </a>
+      <a class="module" href="/beyond/">
+        <div class="module-title">Beyond Work <span class="arrow">→</span></div>
+        <div class="module-chips">{{ range $hobbies }}<span class="chip">{{ . }}</span>{{ end }}</div>
+        <div class="module-photos">
+          <img src="{{ (index $aqua.items 0).image }}" alt="">
+          <img src="{{ (index $kits.items 0).image }}" alt="">
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>

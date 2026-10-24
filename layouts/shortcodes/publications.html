@@ -1,0 +1,12 @@
+{{- /* renders data/publications.yaml, add new papers at the top of that file */ -}}
+{{- range site.Data.publications.papers }}
+<div class="pub">
+  + {{ replaceRE `\*\*([^*]+)\*\*` "<strong>$1</strong>" .authors | safeHTML }}<br>
+  {{- if .link }}
+  <a href="{{ .link }}" class="pub-title">{{ .title }}</a><br>
+  {{- else }}
+  <span class="pub-title">{{ .title }}</span><br>
+  {{- end }}
+  {{ .venue }}
+</div>
+{{- end }}

@@ -1,0 +1,67 @@
+# The Senior Design page and the home card read this file. Newest year first.
+# image: a file in static/design/ (optional), shown as a banner across the top of the card. link: a demo or thesis page (optional).
+# page and program on a year link to the conference page and the program PDF in static/design/.
+
+years:
+  - year: "2027"
+    projects:
+      - title: Film-Only Player Tracking and Semantic-Aware Delivery of Match-Critical Data in Stadium Networks
+        team: Derek Chui, Ramon Anaya, Pedro Aguirre-Salas, Monica Reyes, Collin Fiske
+        advisors: Krishna Ramamoorthy
+        status: In progress
+        image: match-demo.jpg
+        link: https://derekchui.com/match-demo
+        linktext: Live demo
+        description: Most clubs below the top professional leagues have match film but no tracking data, and even the insights they can get rarely reach the coach while a decision is still open. This project addresses that as one pipeline, from film to tracking to insight, delivered live. It reconstructs player and ball tracking from match film alone, turns that tracking into insights such as pitch control, and delivers them over a stadium network that prioritizes traffic by its relevance to the match.
+
+  - year: "2026"
+    page: https://www.scu.edu/engineering/undergraduate/senior-design/2026-senior-design/
+    program: 2026-program.pdf
+    projects:
+      - title: SCU2U
+        team: Sattvika Bhatt, Austin Nguyen, Dhruv Patel, Izzy Perez, Shaunak Sharma
+        advisors: Krishna Ramamoorthy
+        image: scu2u.jpg
+        awards:
+          - Session Winner, Computer Science and Engineering Session 3
+        description: A low-cost, autonomous delivery rover designed to deliver food between Santa Clara University's SCDI Cafe and Heafey Hall. The system uses ROS2, NAV2, and vision-based perception to safely navigate a fixed route on campus route.
+        link: https://scholarcommons.scu.edu/cseng_senior/370
+        linktext: Thesis
+
+      - title: HALoN (High Altitude LoRa Networking) for Crisis Communications
+        team: Sahana Chandramohan, Vikram Jangid
+        advisors: Kurt Schab, Krishna Ramamoorthy
+        description: HALoN strives to provide an accessible, crisis-aware emergency communication system to provide connection in times of disaster. It utilizes a LoRa mesh network, reconfigurable antennas and a light-weight machine learning scheduling algorithm.
+
+      - title: Wearable Hazard Detection System for the Visually Impaired
+        team: Nolan Daly, Sergio Diaz, Brandon Ng
+        advisors: Krishna Ramamoorthy
+        image: wearable.png
+        description: Aimed at assisting the visually impaired, our device pairs wide-angle camera vision with AI-based object detection to identify a range of potential obstacles, including rapidly approaching or elevated hazards. When a hazard is detected, haptic feedback alerts the wearer to its position.
+        link: https://scholarcommons.scu.edu/cseng_senior/376
+        linktext: Thesis
+
+  - year: "2025"
+    page: https://www.scu.edu/engineering/undergraduate/senior-design/archives/2025-senior-design/
+    program: 2025-program.pdf
+    projects:
+      - title: Lock and Roll
+        team: Zachary Common, Varun Mangla, Gabriela Gamarro
+        advisors: Krishna Ramamoorthy
+        image: lock-and-roll.jpg
+        awards:
+          - Session Winner, Interdisciplinary Session 3
+          - CSE Award for Technical Excellence (Varun Mangla, Zachary Common)
+        description: Lock and Roll is an electronic bike wheel lock that advances modern bike security. With just a tap of a key or phone on a NFC reader and integrated GPS tracking and an alarm system, your bike wheels are safe from the ever rising threat of theft.
+        link: https://scholarcommons.scu.edu/cseng_senior/325
+        linktext: Thesis
+
+      - title: EMT Vision
+        team: John Alvarado, Grant Johnson, Jack Landers, Logan Calder
+        advisors: Krishna Ramamoorthy
+        image: emt-vision.jpg
+        awards:
+          - Session Winner (tie), Interdisciplinary Session 4
+        description: EMT Vision is an AR (Augmented Reality) and AI (Artificial Intelligence)-based technology that analyzes conversations between paramedics and patients to automatically complete patient records and track progress on official county procedures.
+        link: https://scholarcommons.scu.edu/cseng_senior/321
+        linktext: Thesis
