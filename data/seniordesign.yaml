@@ -5,13 +5,13 @@
 years:
   - year: "2027"
     projects:
-      - title: Film-Only Player Tracking and Semantic-Aware Delivery of Match-Critical Data in Stadium Networks
+      - title: "PitchLink: Film-Only Player Tracking and Semantic-Aware Delivery of Match-Critical Data in Stadium Networks"
         team: Derek Chui, Ramon Anaya, Pedro Aguirre-Salas, Monica Reyes, Collin Fiske
         advisors: Krishna Ramamoorthy
         status: In progress
         image: match-demo.jpg
-        link: https://derekchui.com/match-demo
-        linktext: Live demo
+        link: https://derekchui.com/pitchlink/
+        linktext: PitchLink
         description: Most clubs below the top professional leagues have match film but no tracking data, and even the insights they can get rarely reach the coach while a decision is still open. This project addresses that as one pipeline, from film to tracking to insight, delivered live. It reconstructs player and ball tracking from match film alone, turns that tracking into insights such as pitch control, and delivers them over a stadium network that prioritizes traffic by its relevance to the match.
 
   - year: "2026"

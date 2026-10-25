@@ -599,3 +599,16 @@ img.zoomable {
   text-underline-offset: 2px;
   box-shadow: none;
 }
+
+/* on a phone the menu wraps onto a second line instead of scrolling sideways, so every page shows */
+@media (max-width: 600px) {
+    #menu {
+        flex-wrap: wrap;
+        white-space: normal;
+        overflow-x: visible;
+        column-gap: 16px;
+        line-height: 2.2;
+        margin-bottom: 8px;
+    }
+    #menu li + li { margin-inline-start: 0; }
+}
