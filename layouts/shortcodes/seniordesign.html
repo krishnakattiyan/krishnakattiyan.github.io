@@ -10,15 +10,16 @@
 <div class="sd-list">
   {{- range .projects }}
   <div class="sd-card">
-    {{- if .image }}<img src="/design/{{ .image }}" alt="" class="sd-image zoomable" loading="lazy">{{ end }}
+    {{- if .image }}<img src="/design/{{ .image }}" alt="" class="sd-image zoomable"{{ with .full }} data-full="/design/{{ . }}"{{ end }}{{ with .imagepos }} style="object-position: {{ . | safeCSS }}"{{ end }} loading="lazy">{{ end }}
     <div class="sd-body">
       <div class="sd-title">{{ .title }}</div>
       {{- with .status }}<span class="sd-badge sd-status">{{ . }}</span>{{ end }}
       {{- range .awards }}<span class="sd-badge">🏆 {{ . }}</span>{{ end }}
       <div class="sd-team">{{ .team }}</div>
       <div class="sd-advisors">Advisor{{ if in .advisors "," }}s{{ end }}: {{ .advisors }}</div>
-      <p class="sd-desc">{{ .description }}</p>
+      {{- with .description }}<p class="sd-desc">{{ . }}</p>{{ end }}
       {{- if .link }}<a href="{{ .link }}" target="_blank" rel="noopener" class="sd-link">{{ .linktext | default "Learn more" }} →</a>{{ end }}
+      {{- range .links }}<a href="{{ .url }}" target="_blank" rel="noopener" class="sd-link">{{ .text }} →</a>{{ end }}
     </div>
   </div>
   {{- end }}

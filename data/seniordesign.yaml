@@ -1,5 +1,8 @@
 # The Senior Design page and the home card read this file. Newest year first.
 # image: a file in static/design/ (optional), shown as a banner across the top of the card. link: a demo or thesis page (optional).
+# full: a different image to open on click, when the banner is a crop of something bigger (optional).
+# imagepos: which part of the image shows in the banner, e.g. center top (optional). Clicking the banner shows the full image.
+# links: a list of text and url pairs, for a card with more than one link (optional).
 # page and program on a year link to the conference page and the program PDF in static/design/.
 
 years:
@@ -9,10 +12,31 @@ years:
         team: Derek Chui, Ramon Anaya, Pedro Aguirre-Salas, Monica Reyes, Collin Fiske
         advisors: Krishna Ramamoorthy
         status: In progress
-        image: match-demo.jpg
+        image: pitchlink.jpg
+        full: pitchlink-full.jpg
         link: https://derekchui.com/pitchlink/
         linktext: PitchLink
         description: Most clubs below the top professional leagues have match film but no tracking data, and even the insights they can get rarely reach the coach while a decision is still open. This project addresses that as one pipeline, from film to tracking to insight, delivered live. It reconstructs player and ball tracking from match film alone, turns that tracking into insights such as pitch control, and delivers them over a stadium network that prioritizes traffic by its relevance to the match.
+
+      - title: Agent-Based Adaptive RSMA for 6G with FPGA-Activated Receiver-Side SIC
+        team: Guangyi Liu, Milan Djurovic
+        advisors: Krishna Ramamoorthy
+        status: In progress
+
+      - title: Adaptive Game Theoretic Defense Against Blackhole and Greyhole Attacks in AODV Networks
+        team: Ariana Sun
+        advisors: Krishna Ramamoorthy
+        status: In progress
+        description: Drones that relay each other's traffic can be undermined by a malicious relay that silently drops packets, either all of them (a blackhole) or some of them (a greyhole). This project models the defense as a Stackelberg game, where the network commits to a level of monitoring and the attacker then picks how much to drop. Solving it gives the minimum monitoring effort that makes attacking unprofitable, and when that is too costly, how much dropping to expect. The model is written to carry straight into an ns-3 evaluation.
+
+      - title: AI-Powered Lending and Risk Assessment System
+        team: Kai Wong, Kate Picca, Risha Desai, Tess Wei
+        advisors: Krishna Ramamoorthy
+        status: In progress
+        image: motohope.jpg
+        description: Moto Hope is a small, impact-first investing company in Kenya. This project is building an AI-based risk assessment tool for its lending, predicting the repayment and default risk of a new loan from borrower data such as M-Pesa activity, credit bureau status and past Moto Hope loans.
+        link: /design/motohope-presentation.pdf
+        linktext: Presentation
 
   - year: "2026"
     page: https://www.scu.edu/engineering/undergraduate/senior-design/2026-senior-design/
@@ -24,6 +48,7 @@ years:
         image: scu2u.jpg
         awards:
           - Session Winner, Computer Science and Engineering Session 3
+          - CSE Award for Technical Excellence
         description: A low-cost, autonomous delivery rover designed to deliver food between Santa Clara University's SCDI Cafe and Heafey Hall. The system uses ROS2, NAV2, and vision-based perception to safely navigate a fixed route on campus route.
         link: https://scholarcommons.scu.edu/cseng_senior/370
         linktext: Thesis
@@ -31,7 +56,16 @@ years:
       - title: HALoN (High Altitude LoRa Networking) for Crisis Communications
         team: Sahana Chandramohan, Vikram Jangid
         advisors: Kurt Schab, Krishna Ramamoorthy
+        image: halon.jpg
+        imagepos: center 12%
+        awards:
+          - Engineering Ethics Prize
         description: HALoN strives to provide an accessible, crisis-aware emergency communication system to provide connection in times of disaster. It utilizes a LoRa mesh network, reconfigurable antennas and a light-weight machine learning scheduling algorithm.
+        links:
+          - text: Thesis
+            url: /design/halon-thesis.pdf
+          - text: Presentation
+            url: /design/halon-presentation.pdf
 
       - title: Wearable Hazard Detection System for the Visually Impaired
         team: Nolan Daly, Sergio Diaz, Brandon Ng
@@ -51,7 +85,7 @@ years:
         image: lock-and-roll.jpg
         awards:
           - Session Winner, Interdisciplinary Session 3
-          - CSE Award for Technical Excellence (Varun Mangla, Zachary Common)
+          - CSE Award for Technical Excellence
         description: Lock and Roll is an electronic bike wheel lock that advances modern bike security. With just a tap of a key or phone on a NFC reader and integrated GPS tracking and an alarm system, your bike wheels are safe from the ever rising threat of theft.
         link: https://scholarcommons.scu.edu/cseng_senior/325
         linktext: Thesis

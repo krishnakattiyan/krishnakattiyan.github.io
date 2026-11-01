@@ -13,7 +13,7 @@
     var img = e.target.closest('img.zoomable');
     if (img) {
       e.preventDefault();
-      big.src = img.currentSrc || img.src;
+      big.src = img.dataset.full || img.currentSrc || img.src;
       cap.textContent = img.dataset.caption || img.alt || '';
       box.classList.add('open');
       document.body.style.overflow = 'hidden';

@@ -20,13 +20,16 @@ hideTitle: true
   The <strong>Wireless Intelligent Networks (WIN) Lab</strong> at Santa Clara University explores next-generation wireless systems that adapt, learn, and make intelligent decisions, with a focus on efficient resource allocation, smarter access protocols, and user-centered performance.
 </p>
 
-<p style="font-size: 14px; line-height: 1.8;">
-We focus on technologies like WiFi 7, 5G/6G, and intelligent multiple access protocols (including NOMA, RSMA, and 6TiSCH) alongside research in QoE/QoS optimization, machine learning techniques in wireless network, network economics, wireless multimedia and cognitive radio.
-</p>
-
-<p style="font-size: 14px; line-height: 1.8;">
-Whether you’re passionate about future wireless networks, curious about how machine learning can shape next gen communications, or eager to build real-world impact through research, the WIN Lab is a collaborative space where your ideas matter, your growth is supported, and your work can shape the networks of tomorrow.
-</p>
+<ul class="research-areas">
+  <li><strong>6G multiple access and antennas:</strong> NOMA, RSMA, fluid and pinching antennas, RIS</li>
+  <li><strong>Hardware for 6G:</strong> FPGA-accelerated interference cancellation, beamforming and equalization</li>
+  <li><strong>Wi-Fi 7 and next generation WLANs:</strong> multi-link operation and traffic allocation</li>
+  <li><strong>Machine learning for networks:</strong> deep reinforcement learning and semantic-aware RANs</li>
+  <li><strong>IoT and industrial networks:</strong> 6TiSCH and integrated sensing and communication (ISAC)</li>
+  <li><strong>Network economics:</strong> game theory, pricing, auctions and incentives for wireless resources</li>
+  <li><strong>QoE-driven wireless multimedia:</strong> video streaming, encoding and user-centered quality models</li>
+  <li><strong>Quantum computing for networks:</strong> QUBO and quantum annealing for network optimization</li>
+</ul>
 
 <div class="lab-page">
 
@@ -35,6 +38,10 @@ Whether you’re passionate about future wireless networks, curious about how ma
 {{< team >}}
 
 <h2>Join the Lab</h2>
+  <p style="font-size: 14px; line-height: 1.8;">
+    Whether you’re passionate about future wireless networks, curious about how machine learning can shape next gen communications, or eager to build real-world impact through research, the WIN Lab is a collaborative space where your ideas matter, your growth is supported, and your work can shape the networks of tomorrow.
+  </p>
+
   <p style="font-size: 14px; line-height: 1.8;">
     <strong>Ph.D. Students:</strong><span style="color: #b86f50;">
   I’m looking to welcome kind, curious, and self-driven Ph.D. students to join the WIN Lab.</span> If you’re passionate about wireless networks, protocols for 6G, machine learning for networks, or network economics, feel free to <a href="mailto:kkattiyanramamoorthy@scu.edu" style="color: #f4a261;">email me</a> with your CV and research interests.
@@ -47,6 +54,16 @@ Whether you’re passionate about future wireless networks, curious about how ma
   <p style="font-size: 14px; line-height: 1.8;">
     <strong>Undergraduate Students:</strong> Curious minds are always welcome! If you're excited to explore research, build real-world systems, or dive into wireless and IoT innovations, drop by my office or send a quick note. No prior research experience is required, just enthusiasm and a willingness to learn.
   </p>
+
+<h2>Sponsors</h2>
+  <p style="font-size: 14px; line-height: 1.8;">
+    Thank you to the companies and organizations below for supporting our research with funding, equipment and technical expertise.
+  </p>
+
+<div class="sponsor-row">
+  <img src="/winlab/sponsors/nvidia.png" alt="NVIDIA" class="sponsor-logo">
+  <img src="/winlab/sponsors/nokia.png" alt="Nokia" class="sponsor-logo">
+</div>
 
 
 </div>

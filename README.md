@@ -10,7 +10,7 @@ Most updates are a few lines in one of the files in `data/`. The pages and the c
 |---|---|---|
 | Lab members | `data/team.yaml` | `group` is `undergrad`, `grad`, `phd` or `alumni`. To graduate someone, change `group` to `alumni` and add `now` (where they went). Square photos go in `static/team/`. |
 | Publications | `data/publications.yaml` | Add new papers at the top. Put `**double stars**` around the name to bold, and a `*` after a supervised student. |
-| Senior design projects | `data/seniordesign.yaml` | Add a new year at the top. `image` (in `static/design/`), `awards` and `link` are optional. |
+| Senior design projects | `data/seniordesign.yaml` | Add a new year at the top. `image` (in `static/design/`), `full` (a bigger image to open on click), `imagepos`, `awards`, `link` and `links` (several text and url pairs) are optional. |
 | Beyond Work photos | `data/photos.yaml` | Photos live in `static/beyond/`. |
 | Courses | `content/courses/_index.md` | Copy an existing course card. The home card counts courses by their `CSEN` number. |
 | Professional activities | `content/service/_index.md` | A plain list. The home card counts the items. |

@@ -21,6 +21,12 @@ members:
     photo: sahana.png
     link: https://www.linkedin.com/in/sahanachandramohan
 
+  - name: Dhruv Patel
+    group: grad
+    role: M.S. Student
+    photo: dhruv.jpg
+    link: https://www.linkedin.com/in/dhruv-d-patel-/
+
   - name: Derek Chui
     group: undergrad
     role: B.S. Student
@@ -56,6 +62,18 @@ members:
     role: B.S. Student
     photo: guangyi.png
     link: https://www.linkedin.com/in/guangyi-liu-59ab56341/
+
+  - name: Ariana Sun
+    group: undergrad
+    role: B.S. Student
+    photo: ariana.jpg
+    link: https://www.linkedin.com/in/ariana-sun
+
+  - name: Jack Murrow
+    group: undergrad
+    role: B.S. Student
+    photo: jack.jpg
+    link: https://www.linkedin.com/in/jack-murrow/
 
   - name: Brian Trinh
     group: alumni
