@@ -2,6 +2,14 @@
 # Put **double stars** around the name to bold it. A * after a name marks a supervised student.
 
 papers:
+  - authors: "D. P. Ngo*, S. Campos*, S. Lai*, A. Li*, D. Chui* and **KMK Ramamoorthy**"
+    title: "Adaptive Congestion Control for Competing Applications at the Wireless Edge"
+    venue: "in Proc. IEEE Consumer Communications & Networking Conference (CCNC), Jan. 2027 (accepted)."
+
+  - authors: "T. Trinh, **KMK Ramamoorthy**, I. Koberidze, D. Chui*, M. Tsintsadze, Y. Zhao and W. Wang"
+    title: "Erasure-Resilient Image Delivery Using Integer-Quantized Implicit Neural Representations"
+    venue: "in Proc. IEEE Consumer Communications & Networking Conference (CCNC), Jan. 2027 (accepted)."
+
   - authors: "B. Trinh*, S. Kulkarni*, D. P. Ngo* and **KMK Ramamoorthy**"
     title: "Application-Aware Learning-Based Uplink Traffic Allocation for Wi-Fi 7 MLO"
     venue: "in Proc. IEEE International Symposium on Local and Metropolitan Area Networks (LANMAN), 2026."

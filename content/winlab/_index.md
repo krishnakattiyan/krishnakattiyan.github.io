@@ -65,5 +65,11 @@ hideTitle: true
   <img src="/winlab/sponsors/nokia.png" alt="Nokia" class="sponsor-logo">
 </div>
 
+<ul class="research-areas">
+  <li><strong>Nokia Solutions and Networks:</strong> Securing the Digital Sixth Sense, a privacy-preserving and energy-aware AI-native 6G ISAC framework for Industry 5.0 (2026 to 2028, with Dr. Yuhong Liu)</li>
+  <li><strong>NVIDIA Academic Grant Program:</strong> learning-based adaptive RSMA for 6G with GPU-accelerated Sionna, two NVIDIA DGX Spark systems (2026)</li>
+  <li><strong>Santa Clara University:</strong> Grow Grant, Faculty-mentored Undergraduate Research (2FURS) Grant and the Responsible AI Undergraduate Research Program (2026)</li>
+</ul>
+
 
 </div>
